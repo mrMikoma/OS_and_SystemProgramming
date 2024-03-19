@@ -26,11 +26,13 @@ Writes the lines in reverse order to a specified output file.
 
 ### Compiling
 
-Make sure you have .c-files main.c, lib.c and lib.h header file included. Run make to compile.
+Make sure you have .c-files main.c, lib.c and lib.h header file included. Run `make` to compile.
 
 ## Running 
 
-usage: ./reverse <input> <output>
+```
+./reverse inputfile outputfile
+```
 
 ### Dependencies
 
