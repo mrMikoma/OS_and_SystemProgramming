@@ -21,13 +21,14 @@ Prints the lines in reverse order to standard output (stdout).
 Reads lines from a specified file using getline.
 Stores lines in a doubly linked list.
 Writes the lines in reverse order to a specified output file.
-Usage
 
-## Compiling
+## Usage
+
+### Compiling
 
 Make sure you have .c-files main.c, lib.c and lib.h header file included. Run make to compile.
 
 
-## Dependencies
+### Dependencies
 
 Standard C libraries: (stdio.h, string.h, stdlib.h) These provide functions like fprintf, getline, and memory management.
