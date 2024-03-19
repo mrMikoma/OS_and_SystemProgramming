@@ -28,6 +28,9 @@ Writes the lines in reverse order to a specified output file.
 
 Make sure you have .c-files main.c, lib.c and lib.h header file included. Run make to compile.
 
+## Running 
+
+usage: ./reverse <input> <output>
 
 ### Dependencies
 
