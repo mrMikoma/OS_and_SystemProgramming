@@ -6,7 +6,7 @@ int main(int argc, char *argv[]) {
     // Verify parameters
     if (argc < 2) { // If no search term provided
         fprintf(stderr, "my-grep: searchterm [file ...]\n"); // Print error message to stderr
-        exit(1); // Exit with status 1 as for no files
+        exit(1); // Exit with status 1 as for no search term
     } else if (argc < 3) { // If no files provided, print from stdin using getline
         // Read line from stdin and match
         char *line = NULL;
